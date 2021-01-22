@@ -6,10 +6,12 @@ namespace FirstProject
    {
       static void Main(string[] args)
       {
-
+/// set integer name ///
+         
          int ageInt;
 
-
+/// Console gives output then recieves input /// 
+         
          System.Console.WriteLine("What is your name?");
 
          string userName = Console.ReadLine();
@@ -20,6 +22,8 @@ namespace FirstProject
          System.Console.WriteLine("What is your age?");
 
          string age = Console.ReadLine();
+         
+         /// Console Parses "ageInt" from a string to an integer, then adds 15 /// 
 
          ageInt=int.Parse(age);
 
