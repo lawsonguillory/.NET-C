@@ -28,7 +28,7 @@ namespace EmployeeInfo
 
 			Console.WriteLine("Your Information is as Follows: ");
 
-																	// Printing Given Employee Information // 
+			// Printing Given Employee Information // 
 
 			Console.WriteLine(empname+ " " + birthdate + " " + extensionname + " " +email);
 
